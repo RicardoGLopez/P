@@ -1,0 +1,51 @@
+//Algoritmo
+
+1. Solicitar el nombre del cliente.
+
+2. Solicitar la edad del cliente, debe de ser mayor de edad.
+
+3. Si la edad del cliente es mayor o igual a 18, realizar el procedimiento, dependiendo de la edad:
+ 
+ -Si la edad del cliente es mayor o igual a 18 pero menor a 25, se la hara un recargo del
+ 10% al seguro base.
+ -Si la edad del cliente es mayor o igual a 25 pero menor a 50, se le hara un recargo del
+ 20% al seguro base.
+ -Si la edad del cliente es mayor o igual a 50, se le hara un recargo del 30% al seguro base.
+ 
+4. Solicitar el número de propiedades que posée.
+
+5. Solictar su salario mensual.
+
+6. Preguntar si esta casado al cliente.
+
+7. Si no esta casado, proceder con la siguiente pregunta, pero si lo esta, solicitarle la siguiente información:
+  
+  -La edad del conyuge en números.
+  
+  -De acuerdo a la edad del conyuge, realizar el siguiente procedimiento:
+    
+    -Si la edad del conyuge es mayor o igual a 18 pero menor a 25,
+    aplicar un recargo del 10% al seguro base.
+    -Si la edad del conyuge es mayor o igual a 25 pero menor a 50,
+    aplicar un recargo del 20% al seguro base.
+    -Si la edad del conyuge es mayor o igual a 50, aplicar un recargo
+    del 30% al seguro base.
+
+8.Preguntar si tiene hijos.
+
+9.Si no tuviera hijos, preceder con el siguiente páso, pero si los tiene, solicitar lo siguiente:
+  
+  -¿Cuántos hijos tiene?
+  
+  -Aplicar un recargo del 20% al seguro base, luego, el resultado multiplicarlo por cada hijo que tuviera.
+  
+10. Sumar el resultado de todos los recargos que se hayan realizado. 
+
+11. La suma total del recargo sumarlo con el precio base del seguro, esto dara el precio final.
+
+12. Devolver un mensaje que contenga el precio de cada recargo aplicado y el precio final del seguro.
+
+13. Preguntar al usuario si desea realizar mas cotizaciones.
+
+14. Si colocar una palabra, diferente a "Salir", repetir desde el paso 1; si colocara la palabar "Salir",
+finalizar el proceso.
